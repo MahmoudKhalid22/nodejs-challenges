@@ -1,8 +1,29 @@
 import { Router } from "express";
 const router = Router();
-import { createUser } from "../controller/users";
+import { createUser,loginUser,updateUser, deleteUser,getUser } from "../controller/users";
 
 // create user
 router.post("/signup", createUser);
 
-router.get("");
+// get user
+router.get("/:id",getUser);
+
+
+// LOGIN
+router.post("/login",loginUser)
+
+
+// update user
+router.patch("/update/:id",updateUser);
+
+// delete user
+router.delete("/delete/:id",deleteUser);
+
+// follow a user
+
+
+
+// unfollow a user
+
+
+module.exports = router;
