@@ -5,7 +5,11 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon ./src/app.js"
+=======
+    "dev": "nodemon ./app.js"
+>>>>>>> c1ed7c50b559191962712fbf44dc4be41ab3a184
   },
   "keywords": [],
   "author": "",

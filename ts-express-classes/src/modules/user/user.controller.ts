@@ -8,9 +8,14 @@ export class UserController {
         this.service = service
     }
 
+<<<<<<< HEAD
  createUser = (req: Request, res: Response) => {
     const input: CreateUserDto = req.body;
     res.send("user has been created")
+=======
+ createUser(req: Request, res: Response) {
+    const input: CreateUserDto = req.body;
+>>>>>>> c1ed7c50b559191962712fbf44dc4be41ab3a184
     return this.service.create(input);
   }
   me = async (req: Request, res: Response) => {

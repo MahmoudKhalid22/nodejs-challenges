@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 {
     "watch":["src"],
     "ext":".ts,.js",
     "exec":"ts-node ./src/index.ts"
+=======
+{
+    "watch":["src"],
+    "ext":".ts,.js",
+    "exec":"ts-node ./src/index.ts"
+>>>>>>> c1ed7c50b559191962712fbf44dc4be41ab3a184
 }

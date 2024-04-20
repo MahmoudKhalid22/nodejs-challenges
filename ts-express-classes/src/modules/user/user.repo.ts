@@ -9,5 +9,8 @@ export class UserRepo {
     create(input: CreateUserDto){
         this.model.create(input)      
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> c1ed7c50b559191962712fbf44dc4be41ab3a184
 }

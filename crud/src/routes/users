@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const router = require('express').Router();
 const { getUsers, getUser, createUser,deleteUser, updateUser } = require('../controller/controller');
 
@@ -10,3 +11,17 @@ router.patch('/update/:id',updateUser);
 
 module.exports = router;
 
+=======
+const router = require('express').Router();
+const { getUsers, getUser, createUser,deleteUser, updateUser } = require('../controller/controller');
+
+router.get('/',getUsers);
+router.get('/:id',getUser);
+router.post('/register',createUser);
+router.delete('/delete/:id',deleteUser);
+router.patch('/update/:id',updateUser);
+
+
+module.exports = router;
+
+>>>>>>> c1ed7c50b559191962712fbf44dc4be41ab3a184
